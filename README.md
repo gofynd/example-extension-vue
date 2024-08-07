@@ -16,6 +16,7 @@ Below is the structure of the project directory along with brief descriptions of
 ├── assets                    # Static assets such as images and fonts
 ├── babel.config.js           # Babel configuration
 ├── components                # Vue components
+├── fdk.ext.config.json       # Configuration file for FDK extension
 ├── helper                    # Helper functions and utilities
 ├── index.html                # Main HTML file
 ├── jest.config.js            # Jest configuration for unit tests
