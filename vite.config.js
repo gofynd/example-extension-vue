@@ -3,9 +3,6 @@ import { defineConfig } from 'vite'
 import { dirname } from 'path'
 import { fileURLToPath } from 'url'
 import vue from '@vitejs/plugin-vue'
-import { config as loadEnv } from 'dotenv';
-import path from 'path';
-loadEnv({ path: path.resolve(__dirname, '..', '.env') });
 
 const proxyOptions = {
   target: `http://127.0.0.1:${process.env.BACKEND_PORT}`,

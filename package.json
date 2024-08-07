@@ -36,7 +36,6 @@
     "babel-loader": "8.3.0",
     "babel-plugin-dynamic-import-node": "2.3.3",
     "babel-polyfill": "6.26.0",
-    "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.27.0",
     "flush-promises": "^1.0.2",
