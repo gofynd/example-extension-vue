@@ -13,11 +13,8 @@ Below is the structure of the project directory along with brief descriptions of
 .
 ├── App.vue                   # The main Vue component
 ├── README.md                 # Project documentation
-├── assets                    # Static assets such as images and fonts
 ├── babel.config.js           # Babel configuration
-├── components                # Vue components
 ├── fdk.ext.config.json       # Configuration file for FDK extension
-├── helper                    # Helper functions and utilities
 ├── index.html                # Main HTML file
 ├── jest.config.js            # Jest configuration for unit tests
 ├── main.js                   # Entry point for the Vue application
@@ -27,11 +24,7 @@ Below is the structure of the project directory along with brief descriptions of
 │   ├── Home.vue              # Home page component
 │   └── NotFound.vue          # 404 Not Found page component
 ├── public                    # Public assets
-├── router                    # Vue Router configuration
-│   ├── guard.js              # Route guards
-│   └── index.js              # Router setup and routes definition
-├── services                  # Services for API calls and business logic
-│   └── product.service.js    # Service for product-related API calls
+├── router.js                 # Vue Router configuration
 ├── test                      # Test files and configurations
 └── vite.config.js            # Vite configuration file contains the configuration for Vite, including server setup and proxy settings.
 ```
