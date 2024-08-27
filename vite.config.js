@@ -33,6 +33,9 @@ if (host === 'localhost') {
 export default defineConfig({
   root: dirname(fileURLToPath(import.meta.url)),
   plugins: [vue()],
+  build: {
+    outDir: 'public/dist'
+  },
   server: {
     host: 'localhost',
     port: process.env.FRONTEND_PORT,
