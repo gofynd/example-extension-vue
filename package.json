@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@gofynd/fdk-client-javascript": "^1.4.7",
+    "@gofynd/fdk-client-javascript": "^1.4.13",
     "axios": "^1.2.2",
     "url-join": "^4.0.1",
     "vue": "^3.2.13",
