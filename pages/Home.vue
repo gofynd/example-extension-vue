@@ -12,7 +12,7 @@
       </div>
       <div class="description">
         This is an illustrative Platform API call to fetch the list of products
-        in this company. Check your extension folder’s 'server.js'
+        in this company. Check your extension folder's 'server.js'
         file to know how to call Platform API and start calling API you
         require.
       </div>
@@ -169,20 +169,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-html {
-  height: 100%;
-  width: 100%;
-  font-size: 8px;
-}
-
-body {
-  margin: 0;
-  font-family: Inter;
-  background-color: #f8f8f8 !important;
-  width: 100%;
-  height: 100%;
-}
-
 .loader {
   display: flex;
   flex-direction: column;
@@ -195,7 +181,6 @@ body {
 }
 
 .products-container {
-  font-family: Inter;
   position: relative;
   box-sizing: border-box;
   background: #fff;
@@ -280,24 +265,5 @@ body {
       gap: 2px;
     }
   }
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-}
-.mr-r-12 {
-  margin-right: 12px;
-}
-.cl-RoyalBlue {
-  color: #2e31be;
-  margin-left: 2px;
 }
 </style>
