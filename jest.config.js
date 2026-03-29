@@ -11,6 +11,7 @@ module.exports = {
     testEnvironmentOptions: {
       customExportConditions: ["node", "node-addons"],
     },
+    transformIgnorePatterns: ["/node_modules/(?!(url-join)/)"],
     moduleFileExtensions: ["js", "vue", "json"],
     collectCoverage: true,
     collectCoverageFrom: [
